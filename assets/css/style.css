@@ -1,0 +1,127 @@
+html {
+ /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+ font-size: 1 rem;
+}
+
+body {
+ /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+ font-family: "Lato", sans-serif;
+ font-size: 1.6rem;
+ color: #333;
+ line-height: 1.5;
+ background-color: lightgray;
+ margin: 0;
+}
+
+p {
+ font-size: 1.55 rem;
+ font-weight: 400;
+ padding: 20px 0 0 0;
+}
+
+h1 {
+ font-size: 3.4rem;
+ padding-bottom: 20px;
+ text-shadow: 2px 2px darkgray;
+ color: royalblue;
+}
+
+h2 {
+ font-size: 2.7rem;
+ color: royalblue;
+}
+
+a {
+ text-decoration: none;
+ text-decoration: underline;
+}
+
+a:hover {
+ color: royalblue;
+}
+
+#main {
+ margin: 50px 50px;
+ padding: 15px;
+ border-radius: 5px;
+ font-weight: 900;
+ background-color: white;
+ max-width: 900px;
+ box-shadow: 5px 5px 5px light-grey;
+}
+
+#title {
+ padding-bottom: 20px;
+ text-align: center;
+ border-bottom: 3px solid #dadada;
+}
+
+#img-div {
+ padding: 10px;
+ margin: 0;
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+img {
+ max-width: 100%;
+ display: block;
+ height: auto;
+ margin: 0 auto;
+ width: 50%;
+}
+
+#img-caption {
+ font-style: italic;
+ font-size: 1rem;
+ padding: 10px;
+ text-align: center;
+ margin: 0 auto;
+}
+
+blockquote {
+ font-style: italic;
+ max-width: 545px;
+ margin: 0 auto 50px auto;
+ text-align: left;
+}
+
+#navbar {
+ padding: 15px 15px;
+ font-size: 1rem;
+ list-style-type: none;
+ justify-content: space-evenly;
+ background-color: royal-blue;
+ text-align: center;
+}
+
+article {
+ text-align: justify;
+}
+
+.section-topic {
+ background-color: royal-blue;
+}
+
+footer {
+ text-align: center;
+}
+
+@media (max-width: 460px) {
+ #main {
+  margin: 0;
+ }
+
+ #img-caption {
+  font-size: 1.4rem;
+ }
+}
+
+@media (max-width: 700px) {
+ h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+ }
+}
