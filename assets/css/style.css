@@ -104,6 +104,7 @@ footer {
  #main {
   margin: 0;
  }
+}
 
 @media (max-width: 700px) {
  h1 {
