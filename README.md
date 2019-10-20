@@ -1,2 +1,2 @@
-# Tribute-Page
+# A Sample Tribute-Page
 Tribute Page Template
